@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432DFAA920B6AB8300E32ED1 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 432DFAA720B6AB8200E32ED1 /* camera.png */; };
+		432DFAAA20B6AB8300E32ED1 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 432DFAA820B6AB8200E32ED1 /* library.png */; };
 		43CFF93620B6A95C0063EF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFF93520B6A95C0063EF1D /* AppDelegate.swift */; };
 		43CFF93820B6A95C0063EF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFF93720B6A95C0063EF1D /* ViewController.swift */; };
 		43CFF93B20B6A95C0063EF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CFF93920B6A95C0063EF1D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432DFAA720B6AB8200E32ED1 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		432DFAA820B6AB8200E32ED1 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
 		43CFF93220B6A95C0063EF1D /* swiftCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CFF93520B6A95C0063EF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43CFF93720B6A95C0063EF1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		43CFF93420B6A95C0063EF1D /* swiftCamera */ = {
 			isa = PBXGroup;
 			children = (
+				432DFAA720B6AB8200E32ED1 /* camera.png */,
+				432DFAA820B6AB8200E32ED1 /* library.png */,
 				43CFF93520B6A95C0063EF1D /* AppDelegate.swift */,
 				43CFF93720B6A95C0063EF1D /* ViewController.swift */,
 				43CFF93920B6A95C0063EF1D /* Main.storyboard */,
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432DFAAA20B6AB8300E32ED1 /* library.png in Resources */,
 				43CFF94020B6A95E0063EF1D /* LaunchScreen.storyboard in Resources */,
 				43CFF93D20B6A95E0063EF1D /* Assets.xcassets in Resources */,
+				432DFAA920B6AB8300E32ED1 /* camera.png in Resources */,
 				43CFF93B20B6A95C0063EF1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
