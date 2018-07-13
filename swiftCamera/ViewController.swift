@@ -79,9 +79,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
             // アルバムに追加.
             UIImageWriteToSavedPhotosAlbum(pickedImage, self, nil, nil)
         }
-        
+    
         //カメラ画面(アルバム画面)を閉じる処理
         imagePicker.dismiss(animated: true, completion: nil)
+        //hirakerarerunnkai
         
     }
 
